@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    font-size: 20px;
+}
+.contain {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #101010;
+    width: 300px;
+    text-align: center;
+    padding: 2rem;
+    height: 200px;
+}
+p {
+    margin-top: 1rem;
+    color: white;
+}
+.up,
+.down {
+    cursor: pointer;
+    padding: .4rem;
+    border-color: transparent;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+.up {
+    background: green;
+    margin-right: 2rem;
+}
+.down {
+    background: red;
+}
+.up:hover {
+    background: darkgreen;
+}
+.down:hover {
+    background: darkred;
+}
+
+
+
+
